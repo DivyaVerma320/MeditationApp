@@ -2,7 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/88053790" alt="logo" height="150"/>
 </p>
 <h3 align="center">
-  Hey Linda
+  Hey Divya
 </h3>
 <p align="center">
   The open source and free meditation app alternative for everyone. <br />Built with React Native and Expo.
