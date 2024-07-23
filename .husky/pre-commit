@@ -1,0 +1,4 @@
+#!/bin/sh
+# .husky/pre-commit (v5)
+# ...
+# npm lint-staged

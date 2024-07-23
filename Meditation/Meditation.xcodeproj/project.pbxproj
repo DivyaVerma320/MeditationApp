@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56EAB0CF2C0B122600814B2E /* MeditationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB0CE2C0B122600814B2E /* MeditationApp.swift */; };
+		56EAB0D12C0B122600814B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB0D02C0B122600814B2E /* ContentView.swift */; };
+		56EAB0D32C0B122A00814B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EAB0D22C0B122A00814B2E /* Assets.xcassets */; };
+		56EAB0D62C0B122A00814B2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EAB0D52C0B122A00814B2E /* Preview Assets.xcassets */; };
+		56EAB0E12C0B122A00814B2E /* MeditationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB0E02C0B122A00814B2E /* MeditationTests.swift */; };
+		56EAB0EB2C0B122A00814B2E /* MeditationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB0EA2C0B122A00814B2E /* MeditationUITests.swift */; };
+		56EAB0ED2C0B122A00814B2E /* MeditationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB0EC2C0B122A00814B2E /* MeditationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56EAB0DD2C0B122A00814B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56EAB0C32C0B122600814B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EAB0CA2C0B122600814B2E;
+			remoteInfo = Meditation;
+		};
+		56EAB0E72C0B122A00814B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56EAB0C32C0B122600814B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EAB0CA2C0B122600814B2E;
+			remoteInfo = Meditation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56EAB0CB2C0B122600814B2E /* Meditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meditation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EAB0CE2C0B122600814B2E /* MeditationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationApp.swift; sourceTree = "<group>"; };
+		56EAB0D02C0B122600814B2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56EAB0D22C0B122A00814B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56EAB0D52C0B122A00814B2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56EAB0D72C0B122A00814B2E /* Meditation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meditation.entitlements; sourceTree = "<group>"; };
+		56EAB0DC2C0B122A00814B2E /* MeditationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EAB0E02C0B122A00814B2E /* MeditationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTests.swift; sourceTree = "<group>"; };
+		56EAB0E62C0B122A00814B2E /* MeditationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EAB0EA2C0B122A00814B2E /* MeditationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationUITests.swift; sourceTree = "<group>"; };
+		56EAB0EC2C0B122A00814B2E /* MeditationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56EAB0C82C0B122600814B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAB0D92C0B122A00814B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAB0E32C0B122A00814B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56EAB0C22C0B122600814B2E = {
+			isa = PBXGroup;
+			children = (
+				56EAB0CD2C0B122600814B2E /* Meditation */,
+				56EAB0DF2C0B122A00814B2E /* MeditationTests */,
+				56EAB0E92C0B122A00814B2E /* MeditationUITests */,
+				56EAB0CC2C0B122600814B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56EAB0CC2C0B122600814B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56EAB0CB2C0B122600814B2E /* Meditation.app */,
+				56EAB0DC2C0B122A00814B2E /* MeditationTests.xctest */,
+				56EAB0E62C0B122A00814B2E /* MeditationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56EAB0CD2C0B122600814B2E /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				56EAB0CE2C0B122600814B2E /* MeditationApp.swift */,
+				56EAB0D02C0B122600814B2E /* ContentView.swift */,
+				56EAB0D22C0B122A00814B2E /* Assets.xcassets */,
+				56EAB0D72C0B122A00814B2E /* Meditation.entitlements */,
+				56EAB0D42C0B122A00814B2E /* Preview Content */,
+			);
+			path = Meditation;
+			sourceTree = "<group>";
+		};
+		56EAB0D42C0B122A00814B2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56EAB0D52C0B122A00814B2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56EAB0DF2C0B122A00814B2E /* MeditationTests */ = {
+			isa = PBXGroup;
+			children = (
+				56EAB0E02C0B122A00814B2E /* MeditationTests.swift */,
+			);
+			path = MeditationTests;
+			sourceTree = "<group>";
+		};
+		56EAB0E92C0B122A00814B2E /* MeditationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56EAB0EA2C0B122A00814B2E /* MeditationUITests.swift */,
+				56EAB0EC2C0B122A00814B2E /* MeditationUITestsLaunchTests.swift */,
+			);
+			path = MeditationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56EAB0CA2C0B122600814B2E /* Meditation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EAB0F02C0B122A00814B2E /* Build configuration list for PBXNativeTarget "Meditation" */;
+			buildPhases = (
+				56EAB0C72C0B122600814B2E /* Sources */,
+				56EAB0C82C0B122600814B2E /* Frameworks */,
+				56EAB0C92C0B122600814B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meditation;
+			productName = Meditation;
+			productReference = 56EAB0CB2C0B122600814B2E /* Meditation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56EAB0DB2C0B122A00814B2E /* MeditationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EAB0F32C0B122A00814B2E /* Build configuration list for PBXNativeTarget "MeditationTests" */;
+			buildPhases = (
+				56EAB0D82C0B122A00814B2E /* Sources */,
+				56EAB0D92C0B122A00814B2E /* Frameworks */,
+				56EAB0DA2C0B122A00814B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EAB0DE2C0B122A00814B2E /* PBXTargetDependency */,
+			);
+			name = MeditationTests;
+			productName = MeditationTests;
+			productReference = 56EAB0DC2C0B122A00814B2E /* MeditationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56EAB0E52C0B122A00814B2E /* MeditationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EAB0F62C0B122A00814B2E /* Build configuration list for PBXNativeTarget "MeditationUITests" */;
+			buildPhases = (
+				56EAB0E22C0B122A00814B2E /* Sources */,
+				56EAB0E32C0B122A00814B2E /* Frameworks */,
+				56EAB0E42C0B122A00814B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EAB0E82C0B122A00814B2E /* PBXTargetDependency */,
+			);
+			name = MeditationUITests;
+			productName = MeditationUITests;
+			productReference = 56EAB0E62C0B122A00814B2E /* MeditationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56EAB0C32C0B122600814B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					56EAB0CA2C0B122600814B2E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					56EAB0DB2C0B122A00814B2E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 56EAB0CA2C0B122600814B2E;
+					};
+					56EAB0E52C0B122A00814B2E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 56EAB0CA2C0B122600814B2E;
+					};
+				};
+			};
+			buildConfigurationList = 56EAB0C62C0B122600814B2E /* Build configuration list for PBXProject "Meditation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56EAB0C22C0B122600814B2E;
+			productRefGroup = 56EAB0CC2C0B122600814B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56EAB0CA2C0B122600814B2E /* Meditation */,
+				56EAB0DB2C0B122A00814B2E /* MeditationTests */,
+				56EAB0E52C0B122A00814B2E /* MeditationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56EAB0C92C0B122600814B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAB0D62C0B122A00814B2E /* Preview Assets.xcassets in Resources */,
+				56EAB0D32C0B122A00814B2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAB0DA2C0B122A00814B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAB0E42C0B122A00814B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56EAB0C72C0B122600814B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAB0D12C0B122600814B2E /* ContentView.swift in Sources */,
+				56EAB0CF2C0B122600814B2E /* MeditationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAB0D82C0B122A00814B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAB0E12C0B122A00814B2E /* MeditationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAB0E22C0B122A00814B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAB0ED2C0B122A00814B2E /* MeditationUITestsLaunchTests.swift in Sources */,
+				56EAB0EB2C0B122A00814B2E /* MeditationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56EAB0DE2C0B122A00814B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56EAB0CA2C0B122600814B2E /* Meditation */;
+			targetProxy = 56EAB0DD2C0B122A00814B2E /* PBXContainerItemProxy */;
+		};
+		56EAB0E82C0B122A00814B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56EAB0CA2C0B122600814B2E /* Meditation */;
+			targetProxy = 56EAB0E72C0B122A00814B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56EAB0EE2C0B122A00814B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56EAB0EF2C0B122A00814B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		56EAB0F12C0B122A00814B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Meditation/Meditation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meditation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Meditation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56EAB0F22C0B122A00814B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Meditation/Meditation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meditation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Meditation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		56EAB0F42C0B122A00814B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.MeditationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meditation";
+			};
+			name = Debug;
+		};
+		56EAB0F52C0B122A00814B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.MeditationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meditation";
+			};
+			name = Release;
+		};
+		56EAB0F72C0B122A00814B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.MeditationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Meditation;
+			};
+			name = Debug;
+		};
+		56EAB0F82C0B122A00814B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.MeditationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Meditation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56EAB0C62C0B122600814B2E /* Build configuration list for PBXProject "Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EAB0EE2C0B122A00814B2E /* Debug */,
+				56EAB0EF2C0B122A00814B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EAB0F02C0B122A00814B2E /* Build configuration list for PBXNativeTarget "Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EAB0F12C0B122A00814B2E /* Debug */,
+				56EAB0F22C0B122A00814B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EAB0F32C0B122A00814B2E /* Build configuration list for PBXNativeTarget "MeditationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EAB0F42C0B122A00814B2E /* Debug */,
+				56EAB0F52C0B122A00814B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EAB0F62C0B122A00814B2E /* Build configuration list for PBXNativeTarget "MeditationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EAB0F72C0B122A00814B2E /* Debug */,
+				56EAB0F82C0B122A00814B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56EAB0C32C0B122600814B2E /* Project object */;
+}
