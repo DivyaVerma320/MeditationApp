@@ -8,7 +8,7 @@
   The open source and free meditation app alternative for everyone. <br />Built with React Native and Expo.
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3059371/153682336-44a93448-7630-4103-9a3b-b5109acdafca.jpg" alt="banner" />
+<!--   <img src="https://user-images.githubusercontent.com/3059371/153682336-44a93448-7630-4103-9a3b-b5109acdafca.jpg" alt="banner" /> -->
 </p>
 
 ## Features
